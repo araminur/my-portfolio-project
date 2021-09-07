@@ -1,0 +1,202 @@
+
+
+  
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    font-weight: bold;
+}
+
+body{
+   
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+.section-title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.hr-style{
+  border: 10px dotted ghostwhite ;
+  border-bottom: none;
+  width: 50px;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+
+}
+ /* header start */
+header{
+    background-image: url("image/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0,0,0.2);
+
+}
+.navbar-icon{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: #2980b9;
+    color:white;
+    transform: scale(1.1);
+}
+.banner-container{
+    height: 100vh;
+}
+
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7,101,189);
+    padding: 10px 20px;
+      font-family: 'Handlee', cursive;
+      border-radius: 5px;
+}
+
+
+
+ /* header end */
+
+/* features start  */
+
+#features{
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+.features-col{
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: .4s;
+}
+
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px #000,
+                -2px -3px 1px #777e;
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+    transition: .4s;
+}
+
+
+/* features end */
+
+/* About Section */
+
+#about{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+
+.star i{
+    width: 20px;
+}
+
+/* About Section */
+
+/* feedback start */
+
+#feedback{
+    padding: 5%;
+    background-color: #5eaaa8;
+}
+
+.carousel-item{
+    height: 32rem;
+    position: relative;
+    padding: 7% 15%;
+    text-align: center;
+    font-style: italic;
+
+}
+.content{
+    position: absolute;
+    left:0;
+    bottom:0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.feedback-img{
+    width: 160px;
+    height: 160px;
+   
+}
+
+
+/* feedback end */
+/* contact start */
+
+.design{
+    border: 10px dotted white;
+  border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#contact{
+    padding: 2% 10%;
+    background-color: #5eaaa8;
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+
+/* contact end */
+
+/* footer start*/
+footer{
+    background-color: #056676;
+    padding: 1% 10%;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: .4s;
+}
+
+footer a:hover{
+    background-color: gray;
+    transform: rotate(5);
+    text-decoration: none;
+}
+
+
+@media(max-width:375px) {
+    .exBtn{
+        margin-bottom: 1.5rem;
+    }
+}
